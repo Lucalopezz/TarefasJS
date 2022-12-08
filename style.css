@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.box{
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    border-radius: 15px;
+    width: 25%;
+    height: 50%;
+    color: white;
+    border: 1px solid black;
+}
+.tarefa{
+    border-radius: 7px;
+    border: 3px solid cornflowerblue;
+    padding: 7px;
+    margin-top: 30px;
+    margin-left: 18px;
+    margin-bottom: 30px;
+    outline: none;
+    font-size: 16px;
+}
+.AddBtn{
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    padding: 6px;
+    font-size: 18px;
+    color: white;
+}
+.DeleteBtn{
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    padding: 6px;
+    font-size: 18px;
+    color: white;
+    
+}
+.CheckButton{
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    padding: 6px;
+    font-size: 18px;
+    color: white;
+   
+}
+.DeleteBtn:hover , .AddBtn:hover{
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+#tarefas{
+    border: 2px solid cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#tarefas:hover{
+    cursor: pointer;
+}
+p{
+    color: black;
+    position: absolute;
+    left: 9%;
+    top: 92%;
+    margin-bottom: 20px;
+}

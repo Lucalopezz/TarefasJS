@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/522/522512.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Tarefas do Dia</title>
+</head>
+<body>
+    <h1>Suas Tarefas de Hoje:</h1>
+    <div class="box">
+        <input type="text" id="tarefa" class="tarefa" name="tarefa" placeholder="Digite uma nova tarefa">
+        <button onclick="addTarefa()" type="button" class="AddBtn"><i class="fa-solid fa-plus"></i></button>
+        
+        <button onclick="remove()" type="button" class="DeleteBtn"><i class="fa-solid fa-trash"></i></button>
+        <button type="button" onclick="feito()" ondblclick="desfeito()" class="CheckButton"><i class="fa-solid fa-check"></i></button>
+        <br>
+        <select name="tarefas" id="tarefas" size="10" style="width: 250px;">
+            <option>Exemplo...</option>
+        </select>
+        <p id="resposta"></p>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/98283e91bc.js" crossorigin="anonymous"></script>
+</html>
