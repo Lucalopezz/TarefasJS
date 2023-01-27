@@ -47,7 +47,7 @@ function feito(){
         document.getElementById('resposta').innerHTML = 'Selecione uma tarefa concluida';
     }else{
         var i = tarefas.options[tarefas.selectedIndex].index;
-        tarefas[i].style.color = 'green';
+        tarefas[i].style.color = 'green',
         
     }
 }
